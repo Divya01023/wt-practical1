@@ -1,0 +1,59 @@
+*{
+   margin:0;
+   padding:0;
+}
+body{
+    text-align:center;
+    background-color:black;
+    font-size: large;
+}
+h1{
+    color:white;
+
+}
+.main h1{
+    color:black;
+}
+.main{
+    width:700px;
+    height:900px;
+    background-color:aliceblue;
+    color:black;
+    margin:5rem 25rem;
+    border:2px solid brown;
+    border-radius:20px;
+}
+.main:hover{
+    transform: scale(1.10);
+    cursor: pointer;
+
+}
+.container{
+    margin: 20px;
+    padding:20px;
+}
+.info input{
+    width:100%;
+    padding:10px;
+    border:2px solid rgb(78, 31, 31);
+}
+.info input:hover{
+    border:2px solid red;
+}
+button{
+    padding: 10px;
+    margin:10px;
+    border: 2px solid black;
+    border-radius:10px;
+    color:white;
+    background-color:blue;
+}
+button:hover{
+    border-radius: 2px solid red;
+    background-color:rgb(60, 60, 215);
+
+}
+button:active{
+    background-color:burlywood;
+
+}

@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            login page
+        </title>
+        <link rel="stylesheet" href="loginpage.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuU4lh7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"crossorigin="anonymous">
+    </head>
+    <body>
+        <h1>Welcome To Login Page!</h1>
+        <div class="main">
+            <h1> Registration Form</h1>
+            <div class="container">
+
+                <form>
+                    <div class="info">
+                    <label class="form-label" for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Enter your name here" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" placeholder="Enter your Email here"required><br><br>
+                    <label for="pass">Password:</label>
+                    <input type="text" id="pass" placeholder="Enter your password here"required><br><br>
+                    <label for="pn">Contact no:</label>
+                    <input type="text" id="pn" placeholder="Enter your phone no here"required><br><br>
+                    <label for="date">Date</label>
+                    <input type="date" id="mydate"><br>
+                   
+                    </div><br>
+                    <label for="sub">Subject</label>
+                    <select for="subject">
+                        <option value="a">DAA</option>
+                        <option value="a">CC</option>
+                        <option value="a">EM</option>
+                        <option value="a">OSA</option>
+                    </select><br><br>
+                    Gender:male<input type="radio" id="gender" name="gender">
+                    female<input type="radio" id="gender" name="gender">
+                    other<input type="radio" id="gender"name="gender"><br><br>
+                    write about yourself:<br><textarea name="text" rows="10" cols="40"></textarea>
+                    <br><br><button type="submit" class="btn btn-outline-primary">Submit Form</button>
+                    </div>
+                </form>
+                <div>
+            </div>
+        </div>
+        <script src="login.js">
+            
+        </script>
+        
+    </body>
+</html>
